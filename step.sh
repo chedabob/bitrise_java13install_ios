@@ -75,6 +75,11 @@ function validate_required_input_with_options {
 # Main
 #=======================================
 
+
+echo_warn "The changes in this repo have been merged into the main bitrise-step-install-bundler by FutureWorkshops. Please use that instead."
+echo_warn "This repo (chedabob/bitrise-step-install-bundler) will be deleted on September 1st 2020"
+echo_warn "If you are using Fastlane, the Bitrise Fastlane step now properly supports setting the right bundler version so you might not need this anyway"
+
 #
 # Validate parameters
 echo_info "Configs:"
