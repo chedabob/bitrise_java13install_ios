@@ -1,8 +1,8 @@
-title: "Install OpenJDK 13 - Mac OS"
-summary: This step sets the pre-installed OpenJDK 13 as the system JVM
-description: This step sets the pre-installed OpenJDK 13 as the system JVM
-website: https://github.com/chedabob/bitrise_java13install_ios
-source_code_url: https://github.com/chedabob/bitrise_java13install_ios
+title: "Install OpenJDK - Mac OS"
+summary: This step sets the Brew pre-installed OpenJDK as the system JVM
+description: This step sets the pre-Brew installed OpenJDK as the system JVM
+website: https://github.com/chedabob/bitrise_openjdk_enable_mac
+source_code_url: https://github.com/chedabob/bitrise_openjdk_enable_mac
 host_os_tags:
   - osx-10.10
   - osx-10.9

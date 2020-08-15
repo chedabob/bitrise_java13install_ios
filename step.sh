@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Adding Brew OpenJDK install to jEnv"
-jenv add /usr/local/opt/openjdk/
+VERSION = $(jenv add /usr/local/opt/openjdk/ | tail -n 1)
 
 echo "Setting JVM version in jEnv"
-jenv global 13
+jenv global $VERSION
